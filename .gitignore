@@ -1,0 +1,21 @@
+# Dependencies and generated builds
+/node_modules/
+/dist/
+*.tsbuildinfo
+*.log
+
+# Private job-search data and local backups
+/data/*
+!/data/.gitkeep
+/private/
+/backups/
+*.pdf
+*.doc
+*.docx
+
+# Local configuration and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
